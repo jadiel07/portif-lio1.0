@@ -5,6 +5,13 @@ export default {
     fontFamily: {
       Montserrat: ["Montserrat", "sans-serif"],
     },
+    screens: {
+      desktop0: "1536",
+      desktop: "1260",
+      tablet: "1024",
+      mobile: "768",
+      SmallMobile: "620px",
+    },
     extend: {},
   },
   plugins: [],
