@@ -33,27 +33,35 @@ export default function Welcome() {
           </h1>
           <ul className="flex  font-Montserrat justify-between">
             <Link to={"/about-me"}>
-              <li className="mt-3 hover:cursor-pointer relative transform transition-transform duration-300 hover:scale-105">
+              <li
+                className="mt-3 hover:cursor-pointer relative transform transition-transform duration-300 hover:scale-105
+              hover:border-b-2  hover:border-orange-600"
+              >
                 About-Me
-                <div className="absolute left-0 w-full h-[1px] bg-black opacity-0 transition-opacity duration-300 hover:opacity-100"></div>
               </li>
             </Link>
             <Link to={"/skills"}>
-              <li className="mt-3 hover:cursor-pointer relative transform transition-transform duration-300 hover:scale-105">
+              <li
+                className="mt-3 hover:cursor-pointer relative transform transition-transform duration-300 hover:scale-105
+              hover:border-b-2  hover:border-orange-600"
+              >
                 Skills
-                <div className="absolute left-0 w-full h-[1px] bg-black opacity-0 transition-opacity duration-300 hover:opacity-100"></div>
               </li>
             </Link>
             <Link to={"/projects"}>
-              <li className="mt-3 hover:cursor-pointer relative transform transition-transform duration-300 hover:scale-105">
+              <li
+                className="mt-3 hover:cursor-pointer relative transform transition-transform duration-300 hover:scale-105 
+              hover:border-b-2  hover:border-orange-600"
+              >
                 Projects
-                <div className="absolute left-0 w-full h-[1px] bg-black opacity-0 transition-opacity duration-300 hover:opacity-100"></div>
               </li>
             </Link>
             <Link to={"/contacts"}>
-              <li className="mt-3 hover:cursor-pointer relative transform transition-transform duration-300 hover:scale-105">
+              <li
+                className="mt-3 hover:cursor-pointer relative transform transition-transform duration-300 hover:scale-105
+              hover:border-b-2  hover:border-orange-600"
+              >
                 Contacts
-                <div className="absolute left-0 w-full h-[1px] bg-black opacity-0 transition-opacity duration-300 hover:opacity-100"></div>
               </li>
             </Link>
           </ul>

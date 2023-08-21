@@ -12,7 +12,11 @@ export default {
       mobile: "768",
       SmallMobile: "620px",
     },
-    extend: {},
+    extend: {
+      colors: {
+        aboutColor: "#f2e8e1",
+      },
+    },
   },
   plugins: [],
 };
