@@ -1,10 +1,10 @@
 import Header from "../components/Header";
+import ProjectsSection from "../components/Projects/ProjetcsSection";
 
 export default function Projects() {
   return (
-    <div>
-      <Header />
-      <h1>Projetcs</h1>
-    </div>
+    <>
+      <ProjectsSection />
+    </>
   );
 }
