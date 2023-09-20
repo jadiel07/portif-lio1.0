@@ -4,25 +4,23 @@ export default function Header() {
   return (
     <header>
       <nav>
-        <ul className="flex justify-center sm:gap-4 md:gap-6 lg:gap-10">
+        <ul className="flex justify-center ">
           <Link to={"/skills"}>
             <li
               className="font-bold cursor-pointer
-           bg-gradient-to-r text-transparent bg-clip-text from-orange-400 to-orange-600
-           hover:from-orange-600 hover:to-orange-700 transition-all hover:border-b-2  hover:border-orange-600
-           sm:text-2xl md:text-3xl lg:text-4xl"
+              bg-gradient-to-r text-transparent bg-clip-text from-stone-700 to-stone-400
+              hover: from-stone-400 hover:to-stone-700 transition-all hover:border-b-2  hover:border-stone-600
+              h-12 text-2xl px-2 "
             >
               Skills
             </li>
           </Link>
           <Link to={"/"}>
             <li
-              className=" font-bold
-            cursor-pointer
-            bg-gradient-to-r text-transparent bg-clip-text from-orange-400 to-orange-600
-            hover:from-orange-600 hover:to-orange-700 transition-all hover:border-b-2  hover:border-orange-600
-            sm:text-2xl md:text-3xl lg:text-4xl
-            "
+              className=" font-bold cursor-pointer
+              bg-gradient-to-r text-transparent bg-clip-text from-stone-700 to-stone-400
+              hover: from-stone-400 hover:to-stone-700 transition-all hover:border-b-2  hover:border-stone-600
+              h-12 text-2xl px-2"
             >
               Home
             </li>
@@ -30,23 +28,22 @@ export default function Header() {
           <Link to={"/contacts"}>
             <li
               className=" font-bold cursor-pointer
-            bg-gradient-to-r text-transparent bg-clip-text from-orange-400 to-orange-600
-            hover:from-orange-600 hover:to-orange-700 transition-all hover:border-b-2  hover:border-orange-600
-            sm:text-2xl md:text-3xl lg:text-4xl
-            "
+              bg-gradient-to-r text-transparent bg-clip-text from-stone-700 to-stone-400
+              hover: from-stone-400 hover:to-stone-700 transition-all hover:border-b-2  hover:border-stone-600
+              h-12 text-2xl px-2"
             >
-              Contatos
+              Contacts
             </li>
           </Link>
 
           <Link to={"/about-me"}>
             <li
               className=" font-bold cursor-pointer
-            bg-gradient-to-r text-transparent bg-clip-text from-orange-400 to-orange-600
-            hover:from-orange-600 hover:to-orange-700 transition-all hover:border-b-2  hover:border-orange-600
-            sm:text-2xl md:text-3xl lg:text-4xl"
+            bg-gradient-to-r text-transparent bg-clip-text from-stone-700 to-stone-400
+            hover: from-stone-400 hover:to-stone-700 transition-all hover:border-b-2  hover:border-stone-600
+            h-12 text-2xl px-2 "
             >
-              Sobre-mim
+              Me
             </li>
           </Link>
         </ul>

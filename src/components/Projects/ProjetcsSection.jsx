@@ -6,8 +6,16 @@ export default function ProjectsSection() {
   return (
     <>
       <div
-        className={` flex flex-col justify-center items-center ${style.gradientBackground}`}
+        className={` flex flex-col justify-center items-center ${style.Background}`}
       >
+        <h1
+          className="font-bold 
+              bg-gradient-to-r text-transparent bg-clip-text from-stone-700 to-stone-400
+              h-12 text-2xl"
+        >
+          Some projects
+        </h1>
+
         <div className={`flex  ${style.cardsContainer}`}>
           {projectsData.map((project, index) => (
             <a href={project.url} target="_blank" rel="noopener noreferrer">

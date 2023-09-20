@@ -2,11 +2,6 @@
   color: black;
 }
 
-.gradientBackground {
-  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
-  animation: gradientAnimation 10s ease infinite alternate;
-}
-
 @keyframes gradientAnimation {
   0% {
     background-position: 0% 50%;
@@ -81,4 +76,10 @@ h2 {
   position: absolute;
   margin-top: 12rem;
   z-index: -1;
+}
+@media screen and (max-width: 768px) {
+  .card {
+    width: 200px;
+    height: 142px;
+  }
 }
